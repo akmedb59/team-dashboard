@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Calander</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<!-- <body class=""
+    style="background-image: url('/calander/bg2.jpg'); background-repeat: no-repeat; background-size: cover; "
+    > -->
+
+<body>
+
+
+    <div class=" bg-slate-900 flex items-baseline justify-between h-60">
+
+    </div>
+    <!-- <div class=" bg-[#121d2f] flex items-baseline justify-between h-80"> -->
+    <!-- <div
+                    class="pt-16 mb-5 w-fit bg-gradient-to-r from-[#8f6a00] via-[#e4b50d] to-[#e9c660] shadow-2xl shadow-green-700 p-4 rounded-b-full">
+                    <div
+                        class="border-2 border-green-700 rounded-full aspect-square w-48 flex items-center justify-center bg-white">
+                        <div class="flex w-40  fill-green-800 border-2 rounded-full p-6 shadow-inner overflow-hidden">
+                            <svg class="shadow-2xl" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 122.88 119.74"
+                                style="enable-background:new 0 0 122.88 119.74" xml:space="preserve">
+                                <style type="text/css">
+                                    .st0 {
+                                        fill-rule: evenodd;
+                                        clip-rule: evenodd;
+                                    }
+                                </style>
+                                <g>
+                                    <path class="st0"
+                                        d="M3.69,33.16l8.14-24.5V1.61c0-0.89,0.72-1.61,1.61-1.61s1.61,0.72,1.61,1.61v5.98l8.64,25.57v11.97h4.11 l-3.98,11.94V72.4h15.16c-10.27-20.04,12.18-24.09,21.2-35.9V34c-0.82-0.14-1.63-0.44-2.42-0.89c-1.75-1.01-2.87-2.48-3.38-4.41 c-0.51-1.93-0.26-3.77,0.76-5.53c0.75-1.29,1.88-2.3,3.41-3.01c-1.86,2.1-3.11,3.52-2.28,6.64c0.45,1.67,1.42,2.95,2.93,3.81 c1.49,0.86,3.08,1.07,4.75,0.63c3.15-0.82,3.71-2.62,4.61-5.3l0,0c0.04,0.78,0.05,1.28,0.03,1.51c-0.09,1.07-0.41,2.07-0.95,3.01 c-1,1.73-2.47,2.86-4.4,3.37c-0.13,0.04-0.26,0.07-0.39,0.09v2.62c9.3,12.65,30.71,16.14,21.18,35.85h14.21V57.07l-3.2-11.94h3.69 V33.16l8.14-24.5V1.61c0-0.89,0.72-1.61,1.61-1.61c0.89,0,1.61,0.72,1.61,1.61v5.98l8.64,25.57v11.97h4.11l-3.98,11.94v62.66H98.43 h-0.16H71.6v-18.85c0-4.39-3.6-7.99-7.99-7.99h-4.2c-4.39,0-7.99,3.6-7.99,7.99v18.85H23.83H23.5H3.2V57.07L0,45.13h3.69V33.16 L3.69,33.16z M61.48,25.02l1.05-1.82l-1.4-1.57l2.05,0.44l1.05-1.82l0.22,2.09l2.06,0.45l-1.92,0.85l0.22,2.09l-1.42-1.57 L61.48,25.02L61.48,25.02L61.48,25.02z M105.25,36.49h7.45v5.88h-7.45V36.49L105.25,36.49z M10.18,36.49h7.45v5.88h-7.45V36.49 L10.18,36.49z" />
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div> -->
+    <!-- <div class="px-10">
+                    <img class="h-52" src="/calander/ramzan.png" alt="Ramzan Name">
+                </div>
+                <div class="text-5xl text-white">
+                    1444 - 2023
+                </div> -->
+
+    <!-- </div> -->
+
+    <div class="flex gap-5 px-10 bg-slate-900">
+        <div class="w-3/4">
+            <div class="mx-auto rounded-2xl overflow-hidden shadow-2xl border border-[#bb9447]  ">
+                <table class="">
+                    <thead>
+                        <div class="flex justify-between items-center  text-white font-semibold text-lg">
+                            <div class="p-2 text-xs w-12 flex items-center justify-center h-12 rounded-full aspect-square">
+                            </div>
+                            <div class="p-2 text-xs w-12 flex items-center justify-center h-12 rounded-full aspect-square">
+                            </div>
+                            <div class="p-2 text-xs w-12 flex items-center justify-center h-12 rounded-full aspect-square">
+                            </div>
+                            <div
+                                class="p-2 text-xs w-12 flex items-center justify-center h-12 rounded-full bg-[#bb9447] transform translate-y-2/4 shadow-lg border border-slate-900 aspect-square">
+                                فجر</div>
+                            <div
+                                class="p-2 text-xs w-12 flex items-center justify-center h-12 rounded-full bg-[#bb9447] transform translate-y-2/4 shadow-lg border border-slate-900 aspect-square">
+                                طلوع <br> آفتاب</div>
+                            <div
+                                class="p-2 text-xs w-12 flex items-center justify-center h-12 rounded-full bg-[#bb9447] transform translate-y-2/4 shadow-lg border border-slate-900 aspect-square">
+                                زوال</div>
+                            <div
+                                class="p-2 text-xs w-12 flex items-center justify-center h-12 rounded-full bg-[#bb9447] transform translate-y-2/4 shadow-lg border border-slate-900 aspect-square">
+                                ظہر</div>
+                            <div
+                                class="p-2 text-xs w-12 flex items-center justify-center h-12 rounded-full bg-[#bb9447] transform translate-y-2/4 shadow-lg border border-slate-900 aspect-square">
+                                عصر</div>
+                            <div
+                                class="p-2 text-xs w-12 flex items-center justify-center h-12 rounded-full bg-[#bb9447] transform translate-y-2/4 shadow-lg border border-slate-900 aspect-square">
+                                مغرب</div>
+                            <div
+                                class="p-2 text-xs w-12 flex items-center justify-center h-12 rounded-full bg-[#bb9447] transform translate-y-2/4 shadow-lg border border-slate-900 aspect-square">
+                                عشاء</div>
+                            <div
+                                class="p-2 text-xs w-12 flex items-center justify-center h-12 rounded-full bg-[#bb9447] transform translate-y-2/4 shadow-lg border border-slate-900 aspect-square">
+                                فجر</div>
+                            <div
+                                class="p-2 text-xs w-12 flex items-center justify-center h-12 rounded-full bg-[#bb9447] transform translate-y-2/4 shadow-lg border border-slate-900 aspect-square">
+                                ظہر</div>
+                            <div
+                                class="p-2 text-xs w-12 flex items-center justify-center h-12 rounded-full bg-[#bb9447] transform translate-y-2/4 shadow-lg border border-slate-900 aspect-square">
+                                عصر</div>
+                            <div
+                                class="p-2 text-xs w-12 flex items-center justify-center h-12 rounded-full bg-[#bb9447] transform translate-y-2/4 shadow-lg border border-slate-900 aspect-square">
+                                مغرب</div>
+                            <div
+                                class="p-2 text-xs w-12 flex items-center justify-center h-12 rounded-full bg-[#bb9447] transform translate-y-2/4 shadow-lg border border-slate-900 aspect-square">
+                                عشاء</div>
+                        </div>
+                    </thead>
+                    <thead class="bg-slate-900 text-white font-semibold text-center text-sm">
+                        <td class="px-2 pt-8 pb-4 border-2 border-[#bb9447]">Ramadan</td>
+                        <td class="px-2 pt-8 pb-4 border-2 border-[#bb9447]">Day</td>
+                        <td class="px-2 pt-8 pb-4 border-2 border-[#bb9447]">Mar/ Apr</td>
+                        <td class="px-2 pt-8 pb-4 border-2 border-[#bb9447]">Fajr/ Sehri</td>
+                        <td class="px-2 pt-8 pb-4 border-2 border-[#bb9447]">Sunrise</td>
+                        <td class="px-2 pt-8 pb-4 border-2 border-[#bb9447]">Forb Idden</td>
+                        <td class="px-2 pt-8 pb-4 border-2 border-[#bb9447]">Zuhr Begins</td>
+                        <td class="px-2 pt-8 pb-4 border-2 border-[#bb9447]">Asr Begins</td>
+                        <td class="px-2 pt-8 pb-4 border-2 border-[#bb9447]">Maghrib Iftar</td>
+                        <td class="px-2 pt-8 pb-4 border-2 border-[#bb9447]">Isha Begins</td>
+                        <td class="px-2 pt-8 pb-4 border-2 border-[#bb9447]">Fajr Jama't</td>
+                        <td class="px-2 pt-8 pb-4 border-2 border-[#bb9447]">Zuhr Jama't</td>
+                        <td class="px-2 pt-8 pb-4 border-2 border-[#bb9447]">Asr Jama't</td>
+                        <td class="px-2 pt-8 pb-4 border-2 border-[#bb9447]">Maghrib Jama't</td>
+                        <td class="px-2 pt-8 pb-4 border-2 border-[#bb9447]">Isha Jama't</td>
+                    </thead>
+                    <tbody id="calendarbody">
+
+                    </tbody>
+                    <script>
+                        var days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+
+                        var tableContent = '';
+
+                        for (var i = 1; i <= 30; i++) {
+                            var day = days[i % 7];
+                            var customClass = day === 'Fri' ? 'bg-slate-900 ' : '';
+                            tableContent += `
+                    <tr class="text-center text-sm bg-white">
+                                    <td class="p-2 border">${i}</td>
+                                    <td class="p-2 border">${days[i % 7]}</td>
+                                    <td class="p-2 border">${i}</td>
+                                    <td class="p-2 border">4:44</td>
+                                    <td class="p-2 border">6:12</td>
+                                    <td class="p-2 border">12:59</td>
+                                    <td class="p-2 border">1:07</td>
+                                    <td class="p-2 border">4:44</td>
+                                    <td class="p-2 border">6:12</td>
+                                    <td class="p-2 border">12:59</td>
+                                    <td class="p-2 border">1:07</td>
+                                    <td class="p-2 border">4:44</td>
+                                    <td class="p-2 border">6:12</td>
+                                    <td class="p-2 border">12:59</td>
+                                    <td class="p-2 border">1:07</td>
+                                </tr>
+                            `;
+                        }
+
+                        document.getElementById('calendarbody').innerHTML = tableContent;
+                    </script>
+                </table>
+
+            </div>
+            <div class="bg-slate-900 py-5">
+                <div class="text-center mb-5 ">
+                    <div class="text-3xl font-bold text-white">MASJID DONATIONS</div>
+                    <div class="text-xl font-bold italic text-[#bb9447]">
+                        *** Project Rebuild ***
+                    </div>
+                    <hr class="my-4 w-1/4 mx-auto">
+                </div>
+                <div class="flex gap-5 px-5">
+                    <div class="w-1/5">
+                        <div
+                            class="text-white text-sm font-semibold bg-[#bb9447] rounded-full py-1 px-5 text-center uppercase mb-3">
+                            Scan to PayPal
+                        </div>
+                        <div class=><img class="mx-auto w-full rounded-xl overflow-hidden" src="/calander/qr.png"
+                                alt=""></div>
+                    </div>
+                    <div
+                        class="border border-[#bb9447] rounded-xl text-[#bb9447] w-3/5 p-5 flex items-center justify-around">
+                        <div class="flex flex-col items-center justify-center"><i
+                                class="fa-solid fa-5x fa-building-columns"></i>
+                            <div class="text-xl font-bold">Bank Name</div>
+                        </div>
+
+                        <div class="">
+                            <div class="font-semibold italic">Account Details:</div>
+                            <div class="text-sm text-white">
+                                Acoout Title: <span class="font-bold">Madrash-ul-XYZ</span><br>
+
+                                Acoout Number: <span class="font-bold">125640164894061</span><br>
+                                IBAN Number: <span class="font-bold">UKABCXY125640164894061</span><br>
+                                Reference: <span class="font-bold">Madrash-ul-XYZ</span><br>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="w-1/5">
+                        <div
+                            class="text-white text-sm font-semibold bg-[#bb9447] rounded-full py-1 px-5 text-center uppercase mb-3">
+                            Donate Via app
+                        </div>
+                        <div class=><img class="mx-auto w-full rounded-xl overflow-hidden" src="/calander/qr.png"
+                                alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-[#bb9447] text-slate-900 px-10 py-5">
+                <div class="flex justify-between text-xl font-bold mb-5">
+                    <div>Our Sponsors</div>
+                    <div class="text-white">We're Thankfull for your contributions</div>
+                </div>
+                <div class="grid grid-cols-5 ">
+                    <ul class="list-disc text-lg font-semibold">
+                        <li>
+                            Person Name
+                        </li>
+                        <li>
+                            Person Name
+                        </li>
+                        <li>
+                            Person Name
+                        </li>
+
+                    </ul>
+                    <ul class="list-disc text-lg font-semibold">
+                        <li>
+                            Person Name
+                        </li>
+                        <li>
+                            Person Name
+                        </li>
+                        <li>
+                            Person Name
+                        </li>
+
+                    </ul>
+                    <ul class="list-disc text-lg font-semibold">
+
+                        <li>
+                            Person Name
+                        </li>
+                        <li>
+                            Person Name
+                        </li>
+                        <li>
+                            Person Name
+                        </li>
+                    </ul>
+                    <ul class="list-disc text-lg font-semibold">
+                        <li>
+                            Person Name
+                        </li>
+                        <li>
+                            Person Name
+                        </li>
+                        <li>
+                            Person Name
+                        </li>
+
+                    </ul>
+                    <ul class="list-disc text-lg font-semibold">
+                        <li>
+                            Person Name
+                        </li>
+                        <li>
+                            Person Name
+                        </li>
+                        <li>
+                            Person Name
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="w-1/4">
+            <div class="p-5 bg-[#bb9447]">
+                <div class="text-white font-semibold text-lg bg-slate-900 rounded-full py-1 text-center uppercase">
+                    SADAQAT-UL-FITER <span class="text-xs">(Fitrana)</span></div>
+                <div class="flex gap-4">
+                    <div class="text-slate-900 text-4xl font-bold">$5.00</div>
+                    <div>
+                        <div class="text-slate-900 text-xl">Per Person</div>
+                        <div class="text-xs text-white">
+                            Please use fitrana as reference.
+                        </div>
+                    </div>
+                </div>
+                <hr class="my-4">
+
+                <div class="text-white font-semibold text-lg bg-slate-900 rounded-full py-1 text-center uppercase">
+                    Friday Jummah Prayer </div>
+                <div class="flex">
+                    <table class="text-2xl text-slate-900 font-semibold uppercase mx-auto my-3">
+                        <tr>
+                            <td class="px-2">1st jamat</td>
+                            <td class="border-l px-2 border-slate-900">1:30PM</td>
+                        </tr>
+                        <tr>
+                            <td class="px-2">2nd jamat</td>
+                            <td class="border-l px-2 border-slate-900">2:15PM</td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+
+
+            <div class="flex flex-col gap-3 bg-slate-900 text-white items-center text-center px-5 py-8">
+                <div class="text-2xl font-bold">Special Events</div>
+                <div>
+                    <div class="text-3xl font-bold text-[#bb9447]">Darse Quran</div>
+                    <div><span class="font-bold">Everyday </span><span class="text-sm">After Zuhr and Tarveeh</span>
+                    </div>
+                    <div>by <span>Qibla Qari Sahib</span></div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-[#bb9447]">Khatm-e-Quran</div>
+                    <div><span class="font-bold">Everyday </span><span class="text-sm">After Zuhr and Tarveeh</span>
+                    </div>
+                    <div>by <span>Qibla Qari Sahib</span></div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-[#bb9447]">Zikar Gatherings</div>
+                    <div><span class="font-bold">Last 5-odd Nights </span><span class="text-sm">After Zuhr and
+                            Tarveeh</span></div>
+                    <div>by <span>Qibla Qari Sahib</span></div>
+                </div>
+            </div>
+            <!-- <div class="flex items-center justify-center">
+               
+            </div> -->
+            <div class="p-5 bg-[#bb9447]">
+                <div>
+                    <div
+                        class="text-white font-semibold text-lg bg-slate-900 rounded-full py-1 px-5 text-center uppercase">
+                        Scan to Join <br>
+                        <div class="text-xs">(WhatsApp Group for Annoucements)</div>
+                    </div>
+                    <div class=><img class="mx-auto my-5 w-full rounded-xl overflow-hidden" src="/calander/qr.png"
+                            alt=""></div>
+                </div>
+
+                <hr class="my-4">
+
+                <div>
+                    <div
+                        class="text-white font-semibold text-lg bg-slate-900 rounded-full py-1 px-5 text-center uppercase">
+                        Scan to Enroll <br>
+                        <div class="text-xs">(in Madrasah)</div>
+                    </div>
+                    <div class=><img class="mx-auto my-5 w-full rounded-xl overflow-hidden" src="/calander/qr.png"
+                            alt=""></div>
+                </div>
+
+            </div>
+            <div class="flex flex-col gap-3 bg-slate-900 text-white items-center text-center p-5">
+                <div class="text-2xl font-bold">EID JAMA'AT</div>
+                <div>
+                    <div class="text-2xl font-bold text-[#bb9447]">1st - 8am</div>
+                    <div class="text-2xl font-bold text-[#bb9447]">2nd - 9AM</div>
+                    <div class="text-2xl font-bold text-[#bb9447]">3rd - 10AM</div>
+                    <div><span class="font-bold">Annoucement</span><span class="text-sm"> will be made via social media,
+                            please do not contact the
+                            masjid</span></div>
+
+                </div>
+            </div>
+            <div class="flex items-center justify-evenly py-5 border-t  bg-slate-900 text-white">
+                <div class="p-2"><i class="fa-brands fa-lg fa-facebook"></i></div>
+                <div class="p-2"><i class="fa-brands fa-lg fa-square-x-twitter"></i></div>
+                <div class="p-2"><i class="fa-brands fa-lg fa-instagram"></i></div>
+                <div class="p-2"><i class="fa-brands fa-lg fa-youtube"></i></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div>
+        <div class="grid grid-cols-2">
+            <div class="text-white space-y-5 py-10">
+                <div class="flex items-start gap-2  pr-24">
+                    <div><i class="fa-solid fa-circle-chevron-right text-[#8f6a00] fa-lg mt-4"></i></div>
+                    <div>
+                        <div class="text-xl font-semibold">Daily summary of recitation in Urdu after Trahweeh</div>
+                        <div class="text-sm">
+                            Teacher : Mulana hafiz Majid Hussain Ridawi
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-start gap-2 pr-24">
+                    <div><i class="fa-solid fa-circle-chevron-right text-[#8f6a00] fa-lg mt-4"></i></div>
+                    <div>
+                        <div class="text-xl font-semibold">Daily summary of recitation in Urdu after Trahweeh</div>
+                        <div class="text-sm">
+                            Teacher : Mulana hafiz Majid Hussain Ridawi
+                        </div>
+                    </div>
+                </div>
+                <div class="text-sm pr-16">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate labore voluptatem recusandae
+                        voluptatum dolorem amet. Nisi voluptatem similique quia delectus ex quasi consequatur pariatur
+                        inventore
+                        quos ipsum reiciendis, consectetur excepturi.</p>
+                    <ol>
+                        <li>20 Minutes before Sunrise</li>
+                        <li>Time between forbidden hours adipisicing elit. Cupiditate labore voluptatem recusandae</li>
+                        <li>Hours adipisicing elit. Cupiditate labore voluptatem recusandae</li>
+                    </ol>
+                </div>
+                <div>
+                    <div class="text-[#8f6a00] text-2xl font-bold ">Madrash Londen UK P.O 678</div>
+                    <div>w: www.themadrash.com e: info@madrash.com <br> Haji Ahmed : +098-345676774, Shahkeel Ahmed:
+                        +098-345676774</div>
+                </div>
+
+            </div>
+            <div class="text-white py-10 space-y-10 ">
+                <div class="flex items-start justify-between">
+                    <div class="flex gap-0 items-start">
+                        <div
+                            class="bg-[#8f6a00] text-xs transform -rotate-90 text-center px-2 py-1 rounded-t-lg font-semibold mt-8 -mr-5">
+                            SCANME <br> TO DONATE</div>
+                        <div class=><img class="h-28 rounded-xl overflow-hidden" src="/calander/qr.png" alt=""></div>
+                    </div>
+                    <div class="text-lg font-extrabold px-5 uppercase">
+                        <div>EID JAMA'AT</div>
+                        <div>1st - 8am</div>
+                        <div>2nd - 9AM</div>
+                        <div>3rd - 10AM</div>
+                    </div>
+                    <div class="font-extrabold bg-[#8f6a00] py-6 px-8 rounded-xl">
+                        <div class="capitalize">fitrana</div>
+                        <div>$ 4.00</div>
+                        <div class="text-xs font-light">(Per person)</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="text-2xl font-extrabold">Minerat Construction Appeal</div>
+                    <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique eveniet, ea hic praesentium
+                        aliquam, earum consequuntur officiis amet numquam, inventore deleniti vero non quaerat
+                        temporibus
+                        quidem alias eius tenetur neque?
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci ad dolorum enim illo! Tempore
+                        asperiores ipsam molestiae, quidem minima expedita ab temporibus at qui accusamus facere nihil,
+                        dolorem veniam cumque?
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quas voluptate saepe repellat
+                        vitae
+                        nihil unde nostrum explicabo! Adipisci cumque aliquid beatae odit obcaecati sint rerum expedita
+                        officia doloribus aspernatur?
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+</body>
+
+</html>
